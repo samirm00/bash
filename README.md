@@ -166,7 +166,7 @@ Automate system updates and upgrades.
 
 Monitor a directory for changes and take action.
 
-### ### 41. [Firewall Configuration](./firewall-configuration/main.sh)
+### 41. [Firewall Configuration](./firewall-configuration/main.sh)
 
 Set up and configure a basic firewall.
 
