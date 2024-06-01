@@ -11,6 +11,8 @@
 # Print Hello World
 echo "Hello, World!"
 
+# echo command is used to print the text on the terminal
+
 #------------------------------------------------------------------------------------#
 
 exit 0
