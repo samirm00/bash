@@ -1,0 +1,92 @@
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux system files
+*~
+
+# Backup files
+*.bak
+*.old
+
+# Editor specific files
+# Vim
+*.swp
+*.swo
+*.swn
+*.un~
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Directory for project outputs and builds (example: dist/)
+dist/
+build/
+output/
+
+# Node modules (if you have Node.js scripts)
+node_modules/
+
+# Compiled binary files
+*.out
+*.exe
+
+# IDE and editor settings
+# Visual Studio Code
+.vscode/
+# JetBrains IDEs
+.idea/
+# Eclipse
+.project
+.classpath
+.settings/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Ignore test result files
+*.test
+*.spec
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore environment variables files
+.env
+
+# Ignore custom scripts or config files
+*.config
+*.cfg
+
+# Ignore specific file types that are not required
+*.iml
+*.ipynb
+
+# Ignore specific directory (example: scripts/tmp)
+scripts/tmp/
+
+# Ignore your personal shell history file
+~/.bash_history
+
+# Ignore Python virtual environment if used
+venv/
+__pycache__/
+
+# Ignore temporary directories
+tmp/
+temp/
