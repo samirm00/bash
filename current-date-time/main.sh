@@ -34,4 +34,5 @@ echo "Current date and time: $current_datetime"
 # %Z - Timezone name
 
 #------------------------------------------------------------------------------------#
+
 exit 0
