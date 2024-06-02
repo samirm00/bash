@@ -1,7 +1,7 @@
 #!/opt/homebrew/bin/bash
 
 # Author: Samir M.
-# Date: 2021-06-01
+# Date: 01/06/2024
 # Version: 1.0
 # Description: Print Hello, World!
 # Usage: ./main.sh
