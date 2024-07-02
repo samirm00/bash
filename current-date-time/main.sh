@@ -8,9 +8,9 @@
 
 #------------------------------------------------------------------------------------#
 
-NOW=$(date +"%Y-%m-%d %H:%M:%S")
+DATETIME=$(date +"%Y-%m-%d %H:%M:%S") # command substitution
 
-echo "$NOW"
+echo "${DATETIME}" # it is a good idea to use ${} to avoid confusion
 # %Y : 2024
 # %y : 24
 # %m : 06
