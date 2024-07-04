@@ -7,7 +7,11 @@
 # Usage: ./main.sh
 
 #------------------------------------------------------------------------------------#
-# Function to get a number from the user
+# Function to get a number from the user 
+# -p flag is used to prompt the user for input
+# -r flag is used to prevent backslashes from being interpreted as escape characters
+# local keyword is used to declare a variable that is only accessible within the function
+# "$VARIBALE" is used to access the value of a variable
 get_number() {
     local NUMBER
     read -r -p "Please, Enter a number: " NUMBER
@@ -22,6 +26,9 @@ get_operator() {
 }
 
 # Function to perform the calculation
+# $1, $2, $3 are positional parameters that represent the first, second, and third arguments passed to the function
+# -eq flag is used to check if two numbers are equal
+# $((...)) is used to perform arithmetic operations
 calculate() {
     local NUMBER1=$1
     local NUMBER2=$2
